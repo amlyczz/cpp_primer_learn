@@ -12,7 +12,7 @@ public:
     //构造函数
     Sales_data() = default;
 
-//    Sales_data(const std::string &s) : bookNo(s) {}
+    Sales_data(const std::string &s) : bookNo(s) {}
 
     Sales_data(std::string s, unsigned n, double p) :
             bookNo(std::move(s)), units_sold(n), revenue(p * n) {}
