@@ -35,3 +35,8 @@ add_executable(hash_sam cp11_associate_container/hash_sam.cpp)
 add_executable(intell_pointer cp12_dynamic_memory/intell_pointer.cpp cp12_dynamic_memory/StrBlob.h)
 
 add_executable(NewAlloc cp12_dynamic_memory/NewAlloc.cpp)
+add_executable(UnqPtr cp12_dynamic_memory/UnqPtr.cpp)
+add_executable(WeakPtr cp12_dynamic_memory/WeakPtr.cpp cp12_dynamic_memory/StrBlobPtr.h)
+add_executable(DynamicArray cp12_dynamic_memory/DynamicArray.cpp)
+add_executable(Allocator cp12_dynamic_memory/Allocator.cpp)
+add_executable(TextSearch cp12_dynamic_memory/TextSearch.cpp cp12_dynamic_memory/TextQuery.h cp12_dynamic_memory/QueryResult.h)

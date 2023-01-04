@@ -1,5 +1,15 @@
+class StrBlobPtr;
 class StrBlob {
 public:
+    friend class StrBlobPtr;
+    StrBlobPtr begin(){
+        return StrBlobPtr(*this);
+    }
+    StrBlobPtr end(){
+        auto ret = StrBlobPtr(*this, data->size());
+        return ret;
+    }
+
     typedef std::vector<std::string>::size_type size_type;
 
     StrBlob();
