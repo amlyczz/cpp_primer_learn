@@ -40,3 +40,5 @@ add_executable(WeakPtr cp12_dynamic_memory/WeakPtr.cpp cp12_dynamic_memory/StrBl
 add_executable(DynamicArray cp12_dynamic_memory/DynamicArray.cpp)
 add_executable(Allocator cp12_dynamic_memory/Allocator.cpp)
 add_executable(TextSearch cp12_dynamic_memory/TextSearch.cpp cp12_dynamic_memory/TextQuery.h cp12_dynamic_memory/QueryResult.h)
+add_executable(Foo cp13_copy_control/Foo.cpp cp13_copy_control/HasPtr.h cp13_copy_control/HasPtr2.h)
+add_executable(Sample cp14_op_type_convert/Sample.cpp cp14_op_type_convert/StrVec.h)
