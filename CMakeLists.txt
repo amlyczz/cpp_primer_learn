@@ -43,3 +43,4 @@ add_executable(TextSearch cp12_dynamic_memory/TextSearch.cpp cp12_dynamic_memory
 add_executable(Foo cp13_copy_control/Foo.cpp cp13_copy_control/HasPtr.h cp13_copy_control/HasPtr2.h)
 add_executable(Sample cp14_op_type_convert/Sample.cpp cp14_op_type_convert/StrVec.h)
 add_executable(OOPSample cp15_oop/OOPSample.cpp cp15_oop/Bulk_quote.h cp15_oop/Quote.h cp15_oop/Last.h)
+add_executable(GSample cp16_generic_type/GSample.cpp cp16_generic_type/Blob.h)
